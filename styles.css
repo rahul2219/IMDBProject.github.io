@@ -1,0 +1,176 @@
+.navbar-fixed{
+    width: 100%;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    margin:0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-left: 10%;
+    width: 8%;
+}
+.icon img{
+    height: 75px;
+}
+.search{
+    position: relative;
+    width:50%;
+    margin-left:12%;
+}
+input{
+    height: 70%;
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid white;
+}
+.search img{
+    height: 20px;
+    position: absolute;
+    top:25%;
+    right:3%;
+}
+.search img:hover{
+    cursor: pointer;
+}
+
+.Favourites{
+    display: flex;
+    margin-left:10%;
+    width: 50%;
+    /* justify-content: flex-end; */
+    justify-content: center;
+}
+.Favourites span{
+    color: white;
+    font-size: 100%;
+    padding-right: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+} 
+.Favourites span:hover{
+    color: grey;
+    cursor: pointer;
+}
+#favouritesList{
+    /* width: auto; */
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+
+.favourite-movie{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#h1:hover{
+    cursor: pointer;
+}
+.wrapped{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.2px solid white; 
+}
+
+#movies{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    
+}
+.div-class p{
+    text-align: center;
+}
+#test{
+    margin-left: 27%;
+    width:30%;
+}
+.moviesList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+.movie{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    overflow: hidden;
+    width: 75%;
+    height: 40px;
+   
+}
+.movie p{
+    padding: 10px;
+}
+.movie:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.text{
+    color: white;
+}
+.bord{
+    border:2px solid rgb(99, 99, 32);
+}
+.wrapped button{
+    height: 5%;
+    width: 20%;
+    padding: 8px;
+    background-color: rgb(252, 252, 16);
+    margin-right: 3px;
+    border:none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.wrapped button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.fontEdit{
+    font-size: 20px;
+    font-weight: normal;
+}
+.size{
+    /* border: 1px solid black; */
+    align-items: center;
+    color:white;
+    width: 75%;
+    text-align: center;
+}
+.main-div{
+    display: flex;
+    border-bottom: 1px solid white;
+
+}
+#favouritesList button{
+    height: 50px;
+    margin: auto;
+    background-color: rgb(255, 255, 0);
+    border: none;
+    border-radius:10%;   
+}
+#favouritesList button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>IMDB</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <div class="navbar">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5977/5977585.png" alt="IMDB">
+                </div>
+                <div class="search">
+                    <!-- If the user starts typing any input then getMovie() function will be called -->
+                    <input type="text" oninput="getMovie()" placeholder=" Search For Movies" id="search-input">
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png"  alt="search">
+                </div>    
+                
+                <div class="Favourites">
+                    <div style="position: relative;">
+                        <span>Favourites</span>
+                        <span id ="count"style="position: absolute; font-size:18px; right:-5px; bottom:12px;color: red;">0</span>
+                    </div>
+                    <span>SignIn</span>
+                </div>
+            </div>
+            <div id ="test">
+                <div id="allMovies" class="moviesList">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="movies">
+            <!-- If the user clicks on h1 tag then showMovies function will be called -->
+            <h1 id="h1" onclick="showMovies()">Show Favourite Movies</h1>
+            <div id="favouritesList">
+
+            </div>
+
+        </div>
+    <script src="./script.js"></script>
+    </body>
+</html>
